@@ -1,0 +1,10 @@
+// Ex. 4.1.8 (*) - Print multiplication table
+// Write a program that prints the multiplication table of the number 7. (Use a loop)
+
+let multNumber = 7
+let firstNumber = 1
+
+while(firstNumber < 10){
+    console.log(firstNumber * multNumber)
+    firstNumber++
+}

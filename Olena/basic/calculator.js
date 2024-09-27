@@ -112,7 +112,7 @@ const main = async () => {
     } catch (error) {
         console.error('Something went wrong. Error message: ', error.message);
     } finally {
-        rl.close(); // close the readline interface in any case
+        rl.close(); // always close the readline interface
     }
 }
 
