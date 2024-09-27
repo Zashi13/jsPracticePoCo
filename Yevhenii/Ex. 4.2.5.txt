@@ -1,0 +1,18 @@
+// Ex. 4.2.5 (**) - Sum and Average
+// Write a program that asks the user to input five numbers, print the sum and the average of the five numbers.
+
+
+
+let inputString = prompt("Write 5 numbers separated by spaces: ");
+
+let stringArray = inputString.split(' ');
+
+let numberArray = stringArray.map(Number);
+
+let sumNumbers = numberArray.reduce((acc, num) => acc + num, 0);
+
+let averageNumbers = sumNumbers / numberArray.length;
+
+console.log('Sum:', sumNumbers);
+console.log('Average:', averageNumbers);
+
