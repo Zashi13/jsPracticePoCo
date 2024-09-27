@@ -31,3 +31,17 @@ for (i=50; i>19; i--){
         console.log(i)
     }
 }
+
+// ------ 4.1.12 -------
+
+let arr = [-3, -2, -1, 0]
+
+function incrementItems (arr) {
+    for (let i = 0; i < arr.length; i++){
+        arr[i] = arr[i] + 1;
+}
+return arr
+}
+
+console.log(incrementItems(arr));
+
